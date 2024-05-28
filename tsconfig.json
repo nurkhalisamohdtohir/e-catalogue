@@ -1,0 +1,15 @@
+{
+  "extends": ["@vue/tsconfig/tsconfig.json"],
+  "include": ["./src/**/*"],
+  "compilerOptions": {
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true,
+    "jsx": "preserve",
+    "jsxImportSource": "vue",
+    "types": ["vite/client"],
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "allowJs": true
+  }
+}
